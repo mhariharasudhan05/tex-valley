@@ -1,0 +1,118 @@
+#wrapper{
+	position: relative;
+	width: 100%;
+	display: block;
+}
+.logo{
+	background: url("../images/Picture1.png") no-repeat; 
+}
+.login-class{
+	border-radius: 5px;
+border: 1px solid;
+margin: 50px 30%;
+display: block;
+position: relative;
+padding: 20px 0px;
+background: #c2c2c2;
+}
+.login-class label{
+	float: left;
+	margin: 0 30px;
+	text-align: center;
+}
+.login-class input[type="text"]{ height: 30px;}
+.login-class input[type="password"]{ height: 30px;}
+.clear{
+	height: 10px;
+    clear: both;
+}
+.header-section{
+	float: left;
+	width: 50%;
+}
+.user_detail{
+	float: left;
+}
+.user_detail label{
+    float: left;
+}
+input#enq_number,input#enq_date{
+    width: 65%;
+}
+input[type="date"]{
+    float: right;
+}
+.home_links{
+	clear: both;
+}
+/*----- Tabs -----*/
+.tabs {
+    width:100%;
+    display:inline-block;
+}
+.wrapper-nav{
+    clear: both;
+}
+div#tab1 label{
+    float: left;
+    
+}
+input[type="text"],input[type="tel"],input[type="email"] {
+float: right;
+width: 89%;
+}
+.purpose{
+    margin: 0 10%;
+}
+.purpose1{
+
+    margin: 0 15%;
+}
+.purpose2{
+    margin: 0 15%;
+}
+div#tab2 label{
+    float: left;
+    
+}
+input#type_of_business {
+width: 78%;
+}
+div#tab3 label{
+    float: left;
+    
+}
+input#brand1,input#brand2,input#brand3{
+    width: 27%;
+    margin: 0 4px;
+}
+input#branch {
+width: 62%;
+}
+.purpose1 input[type="text"]{
+    width:30%;
+}
+div#tab4 label{
+    float: left;   
+}
+input#storage_size {
+width: 60%;
+}
+input#buyers_place{
+    width:44%;
+}
+input#banker_name {
+width: 84%;
+}
+div#tab5 label{
+    float: left;   
+}
+.purpose1 textarea{
+    width: 100%;
+}
+input#enq_allot {
+width: 84%;
+}
+input#date_time {
+width: 84%;
+}
